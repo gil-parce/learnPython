@@ -1,0 +1,17 @@
+Functions checklist
+
+1. Did you start your function definition with 'def'?
+2. Does your function name have only characters and _ (underscore) characters?
+3. Did you put an open parenthesis right after function name?
+4. Did you put your arguments after the open parenthesis separated by commas?
+5. Did you make each argument unique (no duplicate names)?
+6. Did you put a close parenthesis and colon after the arguments?
+7. Did you indent all lines of code you want in the function with exactly 4 spaces?
+8. Did you "end" your function by going back to writing with no indent?
+
+When you run ("use" or "call") a function, check:
+
+1. Did you call/use/run this function by typing its name?
+2. Did you put the ( character after the name to run it?
+3. Did you put the values you want into the parenthesis separated by comas?
+4. Did you end the function with a ) character?

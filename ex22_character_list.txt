@@ -1,0 +1,37 @@
+print = display text
+# = comment
++ - / * % < > <= >= =
+()
+' ' " "
+True/False - key words which don't need quotes
+%r = representation
+%s = string
+%d = number
+%f = float
+\ = used to escape characters
+''' or """ = multiline string
+\t = tab
+\n = linefeed
+\\ = Backslash
+raw_input() = get input from user
+pydoc = search information from python library
+open = make a file available to python
+. = dot operator to join a function (or command) to an object
+.read = read content of the file
+.close = close file so it is no longer available to python
+w = write mode
+r = read mode
+a = append mode
+r+ = read and write mode
+.truncate = delete content on file
+.write = write information to file
+; = semi-colon - can separate commands on single line
+len() = return length of string
+exists = function to determine if file exists
+def = define (a function) - use def [function_name]():
+(*args) = to refer to list of arguments in function
+.seek() = go to specific position within file
+.seek(0) = go to beginning
+.readline = read one line from file
++= = shortcut for incrementing a variable
+return = a value that a function makes available for use in a variable
