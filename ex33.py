@@ -1,3 +1,5 @@
+# While Loops
+
 i = 0
 numbers = []
 # Creates an empty list called 'numbers'
@@ -72,4 +74,4 @@ def drill_5(n, s): # first define the function drill_5 as drill_3 above
         print "Item: %d" % i
     print numbers
 
-drill_5(28, 4)
+drill_5(28, 7)
