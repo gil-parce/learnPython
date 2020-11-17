@@ -1,3 +1,5 @@
+# Accessing Elements of Lists
+
 animals = ['bear', 'python', 'peacock', 'kangaroo', 'whale', 'platypus']
 print animals # Print the list of animals
 for i in animals:
