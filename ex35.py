@@ -4,19 +4,20 @@ from sys import exit
 
 # define the function, gold_room
 def gold_room():
-    print "This room is full of gold. How much do you take?"
-
-    choice = raw_input("> ")
+    print "This room is full of gold. How much do you take? Enter a number."
+# I added "enter a number" to clarify.
+    choice = raw_input("> ") # created variable 'choice'
     if "0" in choice or "1" in choice: # Valid responses must contain '1' or '0'
-        how_much = int(choice)
+        how_much = int(choice) # int() turns the raw_input (read as string) into integer
     else:
         dead("Man, learn to type a number.")
 
     if how_much < 50:
         print "Nice, you're not greedy, you win!"
         exit(0)
+        # 0 is a code for an error-free exit
     else:
-        dead("You greedy bastard!")
+        dead("You greedy bastard! You deaded yourself. Better luck next life...")
 
 # define function bear_room
 def bear_room():
@@ -37,7 +38,7 @@ def bear_room():
             print "The bear has moved from the door. You can go through it now."
             bear_moved = True
         elif choice == "taunt bear" and bear_moved:
-            dead("The bear gets pissed off and chews your leg off.")
+            dead("The bear gets pissed off and chews your leg off. It did not stop with the leg...")
         elif choice == "open door" and bear_moved:
             gold_room()
         else:
@@ -63,7 +64,7 @@ def cthulu_room():
 # defines function dead(why)
 # whenever dead is called, it will print whatever is placed in () followed by ", good job!"
 # and will then call exit function to quit the game
-def dead(why):
+def dead(why): # takes the single argument, why, which will print whatever is given in parentheses in dead() elsewhere
     print why, "Good job!"
     exit(0)
 
@@ -82,5 +83,8 @@ def start():
     else:
         dead("You stumble around the room until you starve.")
 
-# Tells python to begin with start() function
+# We have defined the function start(). Now we run the function start().
 start()
+
+# The program begins with start(), then takes a different path
+# depending on the raw_input input received.
